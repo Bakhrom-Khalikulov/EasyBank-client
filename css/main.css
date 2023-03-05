@@ -359,11 +359,122 @@ a{
     color: var(--desc-text-color);
 }
 
-
 /* ************ ARTICLE STYLE END************* */
 
 
-
-
-
 /* ************MAIN STYLE ENDS************* */
+
+
+/* ************FOOTER STARTS************* */
+.site-footer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: var(--footer-bg-color);
+}
+
+.site-footer__wrapper{
+    display: flex;
+    align-items: start;
+}
+
+.site-fotter__wrapper--start{
+    margin-right: 132px;
+}
+
+.footer__logo{
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.social__links{
+    color: var(--text-color);
+}
+
+.social__links:not(:last-child){
+    margin-right: 13px;
+}
+
+.social__links:active{
+    color: var(--text-active-color);
+}
+
+.site-fotter__wrapper--middle{
+    margin-right: 255px;
+    display: flex;
+}
+
+.footer1__list{
+    margin-right: 100px;
+}
+
+.footer1__item{
+    margin-bottom: 8px;
+}
+
+.footer__link{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: var(--text-color);
+}
+
+.footer__link:active{
+    color: var(--text-active-color);
+}
+
+.footer2__list{
+    margin-right: 30px;
+}
+
+.footer2__item{
+    margin-bottom: 8px;
+}
+
+.footer2__link{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: var(--text-color);
+}
+
+.footer2__link:active{
+    color: var(--text-active-color);
+}
+
+.site-fotter__wrapper--end{
+    text-align: end;
+}
+
+.footer__rqstlink{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 12px 33px;
+    background-image: var(--btn-color);
+    border-radius: 22px;
+    color: var(--text-color);
+}
+
+.footer__rqstlink:active{
+    opacity: 0.4;
+}
+
+.footer__copy{
+    margin-top: 36px;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+
+
+/* ************FOOTER ENDS************* */
