@@ -38,7 +38,7 @@
 
 :root{
     --header-bg-color: #fff;
-    --hero-bg-color: #F2F2F2;
+    --hero-bg-color: #FAFAFA;
     --choose-bg-color: #F4F5F7;
     --footer-bg-color: #2D314D;
     --text-color: #fff;
@@ -229,7 +229,69 @@ a{
 /* ************HERO STYLE END************* */
 
 
+/* ************ CHOOSE STYLE START************* */
+.choose-section{
+    padding-top: 96px;
+    padding-bottom: 94px;
+    background-color: var(--choose-bg-color);
+}
 
+.choose-title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: var(--title-text-color);
+}
+
+.choose-desc{
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: var(--desc-text-color);
+}
+
+.service__list{
+    display: flex;
+    align-items: center;
+}
+
+.service__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.service__img{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.service__title{
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: var(--title-text-color);
+}
+
+.service__desc{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: var(--desc-text-color);
+}
+
+
+
+
+/* ************ CHOOSE STYLE END************* */
 
 
 
